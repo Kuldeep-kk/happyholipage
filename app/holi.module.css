@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.mainHead{
+    background-image: linear-gradient(to right, #ff0064, #ff4880, #ff6b9b, #ff89b2, #ffa4c7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: 700;
+}
+.myBtn{
+
+    background-image: linear-gradient(to right, #ff0064, #ff4880, #ff6b9b, #ff89b2, #ffa4c7);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px lightslategray;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .mainHead{
+        font-size: 50px;
+        font-weight: 700;
+
+    }
+}
+@media only screen and (max-width: 400px) {
+    .mainHead{
+        font-size: 45px;
+        font-weight: 700;
+
+    }
+}
